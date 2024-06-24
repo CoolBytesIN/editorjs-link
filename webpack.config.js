@@ -26,7 +26,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'), // Output directory
     filename: 'bundle.js', // Output bundle filename
-    library: 'Delimiter', // Exported library name
+    library: 'Link', // Exported library name
     libraryTarget: 'umd', // Universal Module Definition
     libraryExport: 'default', // Default exports are needed for Editor.js
     umdNamedDefine: true,
