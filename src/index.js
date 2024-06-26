@@ -90,7 +90,7 @@ export default class Link {
    *
    * @static
    * @readonly
-   * @type {{ text: {}; style: boolean; align: boolean; }}
+   * @type {{ a: {} }}
    */
   static get sanitize() {
     return {
